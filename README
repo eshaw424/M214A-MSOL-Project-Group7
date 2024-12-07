@@ -13,3 +13,18 @@ Once your directory is properly set all the code blocks should be able to run se
 In our experience with the given training data, the model takes around 2 hours to fully train on our local machines
 
 If there are any issues running this code, feel free to reach out to Eli Shaw at eshaw4247@gmail.com or (504)913-6149
+
+Package Libraries Used:
+
+librosa - latest
+opensmile - latest
+torchaudio - latest
+numpy - latest
+glob - latest
+tqdm - latest
+shap - latest
+xgboost - latest
+pandas - latest
+re - latest
+matplotlib - latest
+sklearn - latest
