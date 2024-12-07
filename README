@@ -1,0 +1,15 @@
+We recomend running code locally using the Jupyter Notebook extension for VSCode.
+We are using the full feature open smile library which can take a while to run.
+In our experience running locally drastically speeds up training times.
+
+To run our code, simply change the project_data_file_path variable to point to your local directory where the training data is stored.
+    - This should work with any training data as long it has the same internal file structure of the original project data given for testing.
+
+Once your directory is properly set all the code blocks should be able to run sequentially while installing and importing dependencies when necessary.
+    - If for some reason an error is thrown due to a missing dependency, either run 'pip install NAME_OF_DEPENDENCY' in your local terminal; or add 
+      '!pip install NAME_OF_DEPENDENCY' to one of the proceeding code blocks, where NAME_OF_DEPENDENCY is swaped with the name of the library that 
+      is missing in either case
+
+In our experience with the given training data, the model takes around 2 hours to fully train on our local machines
+
+If there are any issues running this code, feel free to reach out to Eli Shaw at eshaw4247@gmail.com or (504)913-6149
